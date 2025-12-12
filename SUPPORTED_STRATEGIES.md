@@ -428,7 +428,7 @@ VLMEvalKit does not provide automated regression detection or alerting.
 - Service Authentication: 2/3
 
 **Phase I: Specification**
-- Supported: 5/9 (56%)
+- Supported: 5/10 (50%)
 - SUT Preparation: 2/4
 - Benchmark Preparation (Inputs): 1/4
 - Benchmark Preparation (References): 2/2
@@ -447,7 +447,7 @@ VLMEvalKit does not provide automated regression detection or alerting.
 - Insight Presentation: 2/6
 
 ### Overall Support
-**Total: 16/33 strategies supported (48%)**
+**Total: 16/34 strategies supported (47%)**
 
 ### Core Strengths
 VLMEvalKit excels at:
