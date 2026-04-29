@@ -86,6 +86,8 @@ from .mmlongbench import MMLongBench
 from .mmmath import MMMath
 from .mmoral_opg_closed import MMOral_OPG_CLOSED
 from .mmoral_opg_open import MMOral_OPG_OPEN
+from .mmrarebench import (MMRarebenchCrossmodal, MMRarebenchDiagnosis, MMRarebenchExamination,
+                          MMRarebenchTreatment)
 from .mmsafetybench import MMSafetyBenchDataset
 from .mmsibench import MMSIBench, MMSIVideoBench
 from .moat import MOAT
@@ -294,6 +296,7 @@ IMAGE_DATASET = [
     MMSafetyBenchDataset, MSSBenchDataset, SIUODataset, SIUOGenDataset, SIUOMCQDataset, M3oralBenchDataset,  # noqa: E501
     Design2Code, VLADBench, SSIBenchDataset, NPMM, SGI_Bench_Experimental_Reasoning, MMOral_OPG_OPEN, MMOral_OPG_CLOSED,  # noqa: E501
     SciDocBench,
+    MMRarebenchDiagnosis, MMRarebenchTreatment, MMRarebenchCrossmodal, MMRarebenchExamination,
 ]
 
 # add by EASI team
